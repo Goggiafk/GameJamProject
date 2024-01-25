@@ -1,0 +1,9 @@
+*.db
+*.pdb
+*.umap
+*.uasset
+*.bin
+*.obj
+*.pch
+*.vcxproj
+*.filters

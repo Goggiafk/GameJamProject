@@ -1,0 +1,52 @@
+Begin Object Class=/Script/IKRig.IKRetargeter Name="ManequenToLowPoly" ExportPath="/Script/IKRig.IKRetargeter'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly'"
+   Begin Object Class=/Script/IKRig.RetargetRootSettings Name="RootSettings" Archetype="/Script/IKRig.RetargetRootSettings'/Script/IKRig.Default__IKRetargeter:RootSettings'" ExportPath="/Script/IKRig.RetargetRootSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RootSettings'"
+   End Object
+   Begin Object Class=/Script/IKRig.IKRetargetGlobalSettings Name="GlobalSettings" Archetype="/Script/IKRig.IKRetargetGlobalSettings'/Script/IKRig.Default__IKRetargeter:GlobalSettings'" ExportPath="/Script/IKRig.IKRetargetGlobalSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:GlobalSettings'"
+   End Object
+   Begin Object Class=/Script/IKRig.RetargetChainSettings Name="RetargetChainSettings_0" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_0'"
+   End Object
+   Begin Object Class=/Script/IKRig.RetargetChainSettings Name="RetargetChainSettings_1" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_1'"
+   End Object
+   Begin Object Class=/Script/IKRig.RetargetChainSettings Name="RetargetChainSettings_2" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_2'"
+   End Object
+   Begin Object Class=/Script/IKRig.RetargetChainSettings Name="RetargetChainSettings_3" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_3'"
+   End Object
+   Begin Object Class=/Script/IKRig.RetargetChainSettings Name="RetargetChainSettings_4" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_4'"
+   End Object
+   Begin Object Name="RootSettings" ExportPath="/Script/IKRig.RetargetRootSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RootSettings'"
+   End Object
+   Begin Object Name="GlobalSettings" ExportPath="/Script/IKRig.IKRetargetGlobalSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:GlobalSettings'"
+   End Object
+   Begin Object Name="RetargetChainSettings_0" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_0'"
+      SourceChain="Spine"
+      TargetChain="Spine"
+   End Object
+   Begin Object Name="RetargetChainSettings_1" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_1'"
+      SourceChain="LeftArm"
+      TargetChain="LeftArm"
+   End Object
+   Begin Object Name="RetargetChainSettings_2" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_2'"
+      SourceChain="RightArm"
+      TargetChain="RightArm"
+   End Object
+   Begin Object Name="RetargetChainSettings_3" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_3'"
+      SourceChain="LeftLeg"
+      TargetChain="LeftLeg"
+   End Object
+   Begin Object Name="RetargetChainSettings_4" ExportPath="/Script/IKRig.RetargetChainSettings'/Game/AnimationRetargeting/ManequenToLowPoly.ManequenToLowPoly:RetargetChainSettings_4'"
+      SourceChain="RightLeg"
+      TargetChain="RightLeg"
+   End Object
+   SourceIKRigAsset="/Game/AnimationRetargeting/Manequen_IQ.Manequen_IQ"
+   SourcePreviewMesh="/Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny"
+   TargetIKRigAsset="/Game/AnimationRetargeting/LowPoly_IQ.LowPoly_IQ"
+   TargetPreviewMesh="/Game/AssetsvilleTown/Meshes/Characters/SK_citizen_female_01.SK_citizen_female_01"
+   TargetMeshOffset=(X=127.000000,Y=0.000000,Z=0.000000)
+   MeshesAskedToFixRootHeightFor=("/Script/Engine.SkeletalMesh'/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin'","/Script/Engine.SkeletalMesh'/Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny'","/Script/Engine.SkeletalMesh'/Game/AssetsvilleTown/Meshes/Characters/SK_citizen_female_01.SK_citizen_female_01'")
+   ChainSettings(0)="/Script/IKRig.RetargetChainSettings'RetargetChainSettings_0'"
+   ChainSettings(1)="/Script/IKRig.RetargetChainSettings'RetargetChainSettings_1'"
+   ChainSettings(2)="/Script/IKRig.RetargetChainSettings'RetargetChainSettings_2'"
+   ChainSettings(3)="/Script/IKRig.RetargetChainSettings'RetargetChainSettings_3'"
+   ChainSettings(4)="/Script/IKRig.RetargetChainSettings'RetargetChainSettings_4'"
+   TargetRetargetPoses=(("Default Pose", (BoneRotationOffsets=(("lowerarm_r", (X=0.000000,Y=0.000000,Z=0.258819,W=0.965926)),("upperarm_r", (X=0.000000,Y=0.422618,Z=0.000000,W=0.906308)),("lowerarm_l", (X=0.000000,Y=-0.000000,Z=0.258819,W=0.965926)),("upperarm_l", (X=0.000000,Y=0.422618,Z=-0.000000,W=0.906308))))))
+End Object
