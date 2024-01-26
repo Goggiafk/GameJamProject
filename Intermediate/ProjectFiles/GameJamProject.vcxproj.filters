@@ -42,9 +42,21 @@
     <ClInclude Include="..\..\Source\GameJamProject\GameJamProject.h">
       <Filter>Source\GameJamProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GameJamProject\StandUpGameMode.cpp">
+      <Filter>Source\GameJamProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameJamProject\StandUpGameMode.h">
+      <Filter>Source\GameJamProject</Filter>
+    </ClInclude>
     <Filter Include="Source\GameJamProject\Characters">
       <UniqueIdentifier>{B94F5D37-9D9C-35E8-9B7B-B1072EE9D8B5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GameJamProject\Characters\CameraManCharacter.cpp">
+      <Filter>Source\GameJamProject\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameJamProject\Characters\CameraManCharacter.h">
+      <Filter>Source\GameJamProject\Characters</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GameJamProject\Characters\NPCCharacter.cpp">
       <Filter>Source\GameJamProject\Characters</Filter>
     </ClCompile>
