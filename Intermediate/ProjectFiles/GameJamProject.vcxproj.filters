@@ -11,6 +11,10 @@
     <None Include="..\..\Source\GameJamProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\AssetsvilleTown.png" />
+    <None Include="..\..\gitignore.txt" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +41,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\GameJamProject\GameJamProject.h">
       <Filter>Source\GameJamProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\GameJamProject\Characters">
+      <UniqueIdentifier>{B94F5D37-9D9C-35E8-9B7B-B1072EE9D8B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GameJamProject\Characters\NPCCharacter.cpp">
+      <Filter>Source\GameJamProject\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameJamProject\Characters\NPCCharacter.h">
+      <Filter>Source\GameJamProject\Characters</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

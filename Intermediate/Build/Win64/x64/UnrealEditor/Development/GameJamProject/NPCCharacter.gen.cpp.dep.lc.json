@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\goggi\\documents\\unreal projects\\gamejamproject\\intermediate\\build\\win64\\unrealeditor\\inc\\gamejamproject\\uht\\npccharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\goggi\\documents\\unreal projects\\gamejamproject\\intermediate\\build\\win64\\x64\\gamejamprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\goggi\\documents\\unreal projects\\gamejamproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamejamproject\\definitions.gamejamproject.h",
+            "c:\\users\\goggi\\documents\\unreal projects\\gamejamproject\\source\\gamejamproject\\characters\\npccharacter.h",
+            "c:\\users\\goggi\\documents\\unreal projects\\gamejamproject\\intermediate\\build\\win64\\unrealeditor\\inc\\gamejamproject\\uht\\npccharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

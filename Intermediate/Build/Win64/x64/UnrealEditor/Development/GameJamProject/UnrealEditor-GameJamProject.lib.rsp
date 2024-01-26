@@ -7,6 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\GameJamProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJamProject\GameJamProject.init.gen.cpp.obj"
+"C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJamProject\NPCCharacter.gen.cpp.obj"
 "C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJamProject\GameJamProject.cpp.obj"
+"C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJamProject\NPCCharacter.cpp.obj"
 "C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJamProject\Default.rc2.res"
 /OUT:"C:\Users\goggi\Documents\Unreal Projects\GameJamProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJamProject\UnrealEditor-GameJamProject.lib"

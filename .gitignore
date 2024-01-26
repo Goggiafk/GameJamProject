@@ -7,3 +7,5 @@
 *.pch
 *.vcxproj
 *.filters
+.vs/GameJamProject/v17/ipch/e05dd9456b15285f.ipch
+Intermediate/
