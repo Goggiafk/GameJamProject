@@ -3,6 +3,8 @@
 
 #include "NPCCharacter.h"
 
+#include "Components/AudioComponent.h"
+
 // Sets default values
 ANPCCharacter::ANPCCharacter()
 {
@@ -10,6 +12,35 @@ ANPCCharacter::ANPCCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkeletalMesh");
+	AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
+}
+
+void ANPCCharacter::ReactToTheJoke()
+{
+	AudioComponent->Stop();
+
+	USoundBase* SoundToPlay = LaughToPlay;
+	UAnimationAsset* AnimToPlay = nullptr;
+	AnimToPlay = LaughAnim;
+
+	if (SoundToPlay)
+	{
+		AudioComponent->SetSound(SoundToPlay);
+		AudioComponent->Play();
+	}
+
+	if(SkeletalMesh)
+	{
+		SkeletalMesh->SetAnimation(AnimToPlay);
+		SkeletalMesh->Play(true);
+	}
+}
+
+void ANPCCharacter::KillPerson()
+{
+	SkeletalMesh->SetSimulatePhysics(true);
+	SkeletalMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	SkeletalMesh->SetCollisionObjectType(ECC_Pawn);
 }
 
 // Called when the game starts or when spawned
