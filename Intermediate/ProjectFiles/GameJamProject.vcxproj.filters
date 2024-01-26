@@ -63,5 +63,11 @@
     <ClInclude Include="..\..\Source\GameJamProject\Characters\NPCCharacter.h">
       <Filter>Source\GameJamProject\Characters</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GameJamProject\Characters\StanduperCharacter.cpp">
+      <Filter>Source\GameJamProject\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameJamProject\Characters\StanduperCharacter.h">
+      <Filter>Source\GameJamProject\Characters</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
