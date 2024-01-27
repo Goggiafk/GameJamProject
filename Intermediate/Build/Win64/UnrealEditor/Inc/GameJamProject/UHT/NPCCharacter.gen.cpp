@@ -83,9 +83,10 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 	}
 	DEFINE_FUNCTION(ANPCCharacter::execReactToTheJoke)
 	{
+		P_GET_UBOOL(Z_Param_IsFunny);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->ReactToTheJoke();
+		P_THIS->ReactToTheJoke(Z_Param_IsFunny);
 		P_NATIVE_END;
 	}
 	void ANPCCharacter::StaticRegisterNativesANPCCharacter()
@@ -121,17 +122,34 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 	}
 	struct Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics
 	{
+		struct NPCCharacter_eventReactToTheJoke_Parms
+		{
+			bool IsFunny;
+		};
+		static void NewProp_IsFunny_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_IsFunny;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::NewProp_IsFunny_SetBit(void* Obj)
+	{
+		((NPCCharacter_eventReactToTheJoke_Parms*)Obj)->IsFunny = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::NewProp_IsFunny = { "IsFunny", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(NPCCharacter_eventReactToTheJoke_Parms), &Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::NewProp_IsFunny_SetBit, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::NewProp_IsFunny,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Characters/NPCCharacter.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPCCharacter, nullptr, "ReactToTheJoke", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::Function_MetaDataParams), Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::Function_MetaDataParams) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPCCharacter, nullptr, "ReactToTheJoke", nullptr, nullptr, Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::PropPointers), sizeof(Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::NPCCharacter_eventReactToTheJoke_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::Function_MetaDataParams), Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke_Statics::NPCCharacter_eventReactToTheJoke_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -158,9 +176,17 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LaughToPlay;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_BooToPlay_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_BooToPlay;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_LaughAnim_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LaughAnim;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_BooAnim_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_BooAnim;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_SkeletalMesh_MetaData[];
 #endif
@@ -180,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ANPCCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ANPCCharacter_KillPerson, "KillPerson" }, // 1499181675
-		{ &Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke, "ReactToTheJoke" }, // 1691035735
+		{ &Z_Construct_UFunction_ANPCCharacter_ReactToTheJoke, "ReactToTheJoke" }, // 2262865917
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -197,12 +223,26 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughToPlay = { "LaughToPlay", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANPCCharacter, LaughToPlay), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughToPlay_MetaData), Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughToPlay_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooToPlay_MetaData[] = {
+		{ "Category", "Audio" },
+		{ "ModuleRelativePath", "Characters/NPCCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooToPlay = { "BooToPlay", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANPCCharacter, BooToPlay), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooToPlay_MetaData), Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooToPlay_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughAnim_MetaData[] = {
 		{ "Category", "Animation" },
 		{ "ModuleRelativePath", "Characters/NPCCharacter.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughAnim = { "LaughAnim", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANPCCharacter, LaughAnim), Z_Construct_UClass_UAnimationAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughAnim_MetaData), Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughAnim_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooAnim_MetaData[] = {
+		{ "Category", "Animation" },
+		{ "ModuleRelativePath", "Characters/NPCCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooAnim = { "BooAnim", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANPCCharacter, BooAnim), Z_Construct_UClass_UAnimationAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooAnim_MetaData), Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooAnim_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPCCharacter_Statics::NewProp_SkeletalMesh_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -223,7 +263,9 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPCCharacter_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANPCCharacter, AudioComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCharacter_Statics::NewProp_AudioComponent_MetaData), Z_Construct_UClass_ANPCCharacter_Statics::NewProp_AudioComponent_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPCCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughToPlay,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooToPlay,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCharacter_Statics::NewProp_LaughAnim,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCharacter_Statics::NewProp_BooAnim,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCharacter_Statics::NewProp_SkeletalMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCharacter_Statics::NewProp_AudioComponent,
 	};
@@ -269,9 +311,9 @@ void EmptyLinkFunctionForGeneratedCodeNPCCharacter() {}
 		{ EReactionType_StaticEnum, TEXT("EReactionType"), &Z_Registration_Info_UEnum_EReactionType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2096612094U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ANPCCharacter, ANPCCharacter::StaticClass, TEXT("ANPCCharacter"), &Z_Registration_Info_UClass_ANPCCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANPCCharacter), 3312853748U) },
+		{ Z_Construct_UClass_ANPCCharacter, ANPCCharacter::StaticClass, TEXT("ANPCCharacter"), &Z_Registration_Info_UClass_ANPCCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANPCCharacter), 2326786983U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_2890678587(TEXT("/Script/GameJamProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_3184051133(TEXT("/Script/GameJamProject"),
 		Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_goggi_Documents_Unreal_Projects_GameJamProject_Source_GameJamProject_Characters_NPCCharacter_h_Statics::EnumInfo));

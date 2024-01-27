@@ -23,7 +23,7 @@ public:
 	// Sets default values for this actor's properties
 	ANPCCharacter();
 	UFUNCTION(BlueprintCallable)
-	void ReactToTheJoke();
+	void ReactToTheJoke(bool IsFunny);
 
 	UFUNCTION(BlueprintCallable)
 	void KillPerson();
@@ -31,8 +31,14 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Audio")
 	USoundBase* LaughToPlay;
 
+	UPROPERTY(EditAnywhere, Category = "Audio")
+	USoundBase* BooToPlay;
+
 	UPROPERTY(EditAnywhere, Category = "Animation")
 	UAnimationAsset* LaughAnim;
+
+	UPROPERTY(EditAnywhere, Category = "Animation")
+	UAnimationAsset* BooAnim;
 	
 protected:
 	// Called when the game starts or when spawned

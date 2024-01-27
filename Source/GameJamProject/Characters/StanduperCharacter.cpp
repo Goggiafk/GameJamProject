@@ -16,7 +16,6 @@ AStanduperCharacter::AStanduperCharacter()
 void AStanduperCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

@@ -15,13 +15,13 @@ ANPCCharacter::ANPCCharacter()
 	AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
 }
 
-void ANPCCharacter::ReactToTheJoke()
+void ANPCCharacter::ReactToTheJoke(bool IsFunny)
 {
 	AudioComponent->Stop();
 
-	USoundBase* SoundToPlay = LaughToPlay;
-	UAnimationAsset* AnimToPlay = nullptr;
-	AnimToPlay = LaughAnim;
+	
+	USoundBase* SoundToPlay = IsFunny ? LaughToPlay : BooToPlay;
+	UAnimationAsset* AnimToPlay = IsFunny ? LaughAnim : BooAnim;
 
 	if (SoundToPlay)
 	{
