@@ -3307,3 +3307,914 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.27-16.03.33:309][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 5.11 sec)
 [2024.01.27-16.03.33:309][710]AssetCheck: New page: Asset Save: WBP_Hud
 [2024.01.27-16.03.33:310][710]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-16.04.23:449][885]LogHttp: Warning: 000004C2399A7D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.01.27-16.04.23:450][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 0 (Connection 3 seems to be dead)
+[2024.01.27-16.04.23:450][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 1 (Closing connection)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 2 (Recv failure: Connection was reset)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 3 (Send failure: Connection was reset)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 4 (Recv failure: Connection was reset)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 5 (Hostname in DNS cache was stale, zapped)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: 000004C2399A7D00: libcurl info message cache 7 (Closing connection)
+[2024.01.27-16.04.23:451][885]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5684A3EF-44E7-20CD-3197-C493853F66BA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=eb83ae3945390c45a83e79b93b981031%7C4185c5f5bedf466f83caa238b38ca9d3%7Cd663de53-9994-419c-8c38-a3968eff1b19&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.01.27-16.06.23:233][493]LogHttp: Warning: 000004C2399ADC00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 0 (Connection 5 seems to be dead)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 1 (Closing connection)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 2 (Recv failure: Connection was reset)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 3 (Send failure: Connection was reset)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 4 (Recv failure: Connection was reset)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 5 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 6 (  Trying 52.200.246.119:443...)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 7 (connect to 52.200.246.119 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:234][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 8 (  Trying 3.95.118.5:443...)
+[2024.01.27-16.06.23:235][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 9 (connect to 3.95.118.5 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:235][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 10 (  Trying 18.209.10.121:443...)
+[2024.01.27-16.06.23:235][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 11 (connect to 18.209.10.121 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:235][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 12 (  Trying 34.206.117.99:443...)
+[2024.01.27-16.06.23:235][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 13 (connect to 34.206.117.99 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:235][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 14 (  Trying 3.85.72.170:443...)
+[2024.01.27-16.06.23:236][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 15 (connect to 3.85.72.170 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 16 (  Trying 44.213.252.171:443...)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 17 (connect to 44.213.252.171 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 18 (  Trying 3.231.195.240:443...)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 19 (connect to 3.231.195.240 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 20 (  Trying 44.195.112.84:443...)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 21 (connect to 44.195.112.84 port 443 failed: Network unreachable)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 22 (Failed to connect to datarouter.ol.epicgames.com port 443 after 74 ms: Couldn't connect to server)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: 000004C2399ADC00: libcurl info message cache 23 (Closing connection)
+[2024.01.27-16.06.23:237][493]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5684A3EF-44E7-20CD-3197-C493853F66BA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=eb83ae3945390c45a83e79b93b981031%7C4185c5f5bedf466f83caa238b38ca9d3%7Cd663de53-9994-419c-8c38-a3968eff1b19&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.01.27-16.11.16:998][374]LogDerivedDataCache: C:/Users/goggi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:59.314 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 30244 files in 33140 folders with total size 1666 MiB.
+[2024.01.27-16.35.23:870][169]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-16.35.23:992][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-16.35.23:994][169]PIE: New page: PIE session: Game (Jan 27, 2024, 6:35:23 PM)
+[2024.01.27-16.35.23:995][169]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.35.24:025][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030527s)
+[2024.01.27-16.35.24:025][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.030840s)
+[2024.01.27-16.35.24:130][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2024.01.27-16.35.24:134][169]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.35.24:134][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.35.24:135][169]LogAIModule: Creating AISystem for world Game
+[2024.01.27-16.35.24:136][169]LogPlayLevel: PIE: World Init took: (0.002254s)
+[2024.01.27-16.35.24:136][169]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.01.27-16.35.24:138][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-16.35.24:138][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-16.35.24:139][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-16.35.24:139][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-16.35.24:139][169]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-16.35.24:139][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-16.35.24:139][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-16.35.24:139][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-16.35.24:142][169]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-16.35.24:142][169]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-16.35.24:142][169]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-16.35.24:145][169]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-16.35.24:185][169]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-16.35.24:186][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-16.35.24:186][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-16.35.24:186][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-16.35.24:196][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2024.01.27-16.35.24:197][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2024.01.27-16.35.24:199][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.01.27-16.35.24:199][169]LogInit: FAudioDevice initialized with ID 30.
+[2024.01.27-16.35.24:199][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2024.01.27-16.35.24:199][169]LogAudio: Display: Audio Device (ID: 30) registered with world 'Game'.
+[2024.01.27-16.35.24:200][169]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.01.27-16.35.24:203][169]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-16.35.24:222][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-17.35.24
+[2024.01.27-16.35.24:223][169]LogWorld: Bringing up level for play took: 0.019690
+[2024.01.27-16.35.24:226][169]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.01.27-16.35.24:228][169]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.35.24:229][169]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.35.24:229][169]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.35.24:231][169]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-16.35.24:231][169]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-16.35.24:231][169]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.35.24:231][169]PIE: Server logged in
+[2024.01.27-16.35.24:233][169]PIE: Play in editor total start time 0.241 seconds.
+[2024.01.27-16.36.51:006][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.36.51:006][383]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.36.51:006][383]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-16.36.51:007][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.36.51:051][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-16.36.51:057][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.36.51:111][383]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-16.36.51:111][383]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.01.27-16.36.51:111][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.01.27-16.36.51:114][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.01.27-16.36.51:131][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.36.51:135][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.27-16.36.51:293][384]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.01.27-16.36.55:996][490]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.01.27-16.37.00:814][752]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.37.01:048][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.01.27-16.37.01:049][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.01.27-16.37.01:052][753]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_1
+[2024.01.27-16.37.01:138][753]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_1
+[2024.01.27-16.37.02:991][804]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.01.27-16.37.02:991][804]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.01.27-16.37.02:999][804]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_2
+[2024.01.27-16.37.02:999][804]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_2
+[2024.01.27-16.37.03:288][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.37.17:867][175]LogPhysics: Warning: Scale for /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.37.17:868][175]LogPhysics: Warning: Scale for /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.37.21:854][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.37.21:908][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-16.37.22:052][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.27-16.37.22:152][268]LogSavePackage: Moving output files for package: /Game/Maps/Game
+[2024.01.27-16.37.22:153][268]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/Game61434BCD4AE7B5EC119E7D88A866F2A8.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Maps/Game.umap'
+[2024.01.27-16.37.22:173][268]LogFileHelpers: Saving map 'Game' took 0.267
+[2024.01.27-16.37.22:181][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 326 ms (total: 5.44 sec)
+[2024.01.27-16.37.22:184][268]AssetCheck: New page: Asset Save: Game
+[2024.01.27-16.37.22:184][268]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Game.Game
+[2024.01.27-16.37.40:199][447]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-16.37.40:199][447]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/goggi/Downloads/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.jpg]
+[2024.01.27-16.37.40:237][448]LogInterchangeImport: JPEG file [C:/Users/goggi/Downloads/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-16.37.40:239][448]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-16.37.40:501][448]LogTexture: Display: Building textures: /Game/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1 (BGRA8, 828x838 x1x1x1) (Required Memory Estimate: 20.355255 MB), EncodeSpeed: Fast
+[2024.01.27-16.37.40:540][448]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-16.37.40:595][449]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-16.37.43:611][539]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.01.27-16.37.44:720][578]LogPhysics: Warning: Scale for /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.37.46:150][613]LogShaderCompilers: Display: ================================================
+[2024.01.27-16.37.46:151][613]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.27-16.37.46:151][613]LogShaderCompilers: Display: Total job queries 103, among them cache hits 32 (31.07%)
+[2024.01.27-16.37.46:151][613]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 32 distinct outputs (76.19%)
+[2024.01.27-16.37.46:151][613]LogShaderCompilers: Display: RAM used: 844.61 KiB of 819.20 MiB budget. Usage: 0.10%
+[2024.01.27-16.37.46:151][613]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.27-16.37.46:152][613]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.01.27-16.37.46:152][613]LogShaderCompilers: Display: Jobs assigned 12, completed 4 (33.33%)
+[2024.01.27-16.37.46:152][613]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2024.01.27-16.37.46:152][613]LogShaderCompilers: Display: Time job spent in pending queue: average 0.51 s, longest 1.44 s
+[2024.01.27-16.37.46:152][613]LogShaderCompilers: Display: Job execution time: average 1.39 s, max 1.39 s
+[2024.01.27-16.37.46:152][613]LogShaderCompilers: Display: Job life time (pending + execution): average 1.44 s, max 1.45
+[2024.01.27-16.37.46:153][613]LogShaderCompilers: Display: Shader code size: average 31.127 KiB, min 29.059 KiB, max 33.316 KiB
+[2024.01.27-16.37.46:153][613]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.45 s
+[2024.01.27-16.37.46:153][613]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.27-16.37.46:154][613]LogShaderCompilers: Display: Average processing rate: 2.76 jobs/sec
+[2024.01.27-16.37.46:154][613]LogShaderCompilers: Display: Total thread time: 2.9 s
+[2024.01.27-16.37.46:154][613]LogShaderCompilers: Display: Total thread preprocess time: 2.188 s
+[2024.01.27-16.37.46:154][613]LogShaderCompilers: Display: Percentage time preprocessing: 75.44%
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display: Effective parallelization: 2.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display:            TShadowDepthPSPixelShadowDepth_PerspectiveCorrect (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.01.27-16.37.46:155][613]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.01.27-16.37.46:156][613]LogShaderCompilers: Display:            TShadowDepthPSPixelShadowDepth_PerspectiveCorrect - 25.29% of total time (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.01.27-16.37.46:156][613]LogShaderCompilers: Display:                                                  FHitProxyPS - 24.97% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.01.27-16.37.46:156][613]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect - 24.97% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.01.27-16.37.46:157][613]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 24.77% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.01.27-16.37.46:157][613]LogShaderCompilers: Display: ================================================
+[2024.01.27-16.37.50:054][688]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-16.37.50:077][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-16.37.50:078][688]PIE: New page: PIE session: Game (Jan 27, 2024, 6:37:50 PM)
+[2024.01.27-16.37.50:078][688]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.37.50:093][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014552s)
+[2024.01.27-16.37.50:093][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.014912s)
+[2024.01.27-16.37.50:180][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.01.27-16.37.50:181][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.37.50:182][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.37.50:182][688]LogAIModule: Creating AISystem for world Game
+[2024.01.27-16.37.50:183][688]LogPlayLevel: PIE: World Init took: (0.001740s)
+[2024.01.27-16.37.50:183][688]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2024.01.27-16.37.50:183][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-16.37.50:183][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-16.37.50:183][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-16.37.50:184][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-16.37.50:184][688]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-16.37.50:184][688]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-16.37.50:184][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-16.37.50:184][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-16.37.50:185][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-16.37.50:185][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-16.37.50:185][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-16.37.50:187][688]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-16.37.50:220][688]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-16.37.50:221][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-16.37.50:221][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-16.37.50:221][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-16.37.50:224][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2024.01.27-16.37.50:224][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2024.01.27-16.37.50:226][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2024.01.27-16.37.50:227][688]LogInit: FAudioDevice initialized with ID 31.
+[2024.01.27-16.37.50:227][688]LogAudio: Display: Audio Device (ID: 31) registered with world 'Game'.
+[2024.01.27-16.37.50:227][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2024.01.27-16.37.50:227][688]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2024.01.27-16.37.50:230][688]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-16.37.50:241][688]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.37.50:241][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-17.37.50
+[2024.01.27-16.37.50:242][688]LogWorld: Bringing up level for play took: 0.012526
+[2024.01.27-16.37.50:246][688]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.01.27-16.37.50:246][688]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.37.50:247][688]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.37.50:247][688]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.37.50:250][688]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-16.37.50:250][688]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-16.37.50:250][688]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.37.50:250][688]PIE: Server logged in
+[2024.01.27-16.37.50:250][688]PIE: Play in editor total start time 0.183 seconds.
+[2024.01.27-16.39.37:385][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.39.37:385][273]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.39.37:386][273]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-16.39.37:387][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.39.37:430][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-16.39.37:435][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.39.37:453][273]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-16.39.37:454][273]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2024.01.27-16.39.37:454][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.01.27-16.39.37:456][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.01.27-16.39.37:488][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.39.37:493][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.27-16.39.37:712][274]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.01.27-16.41.42:944][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.41.43:066][886]LogSavePackage: Moving output files for package: /Game/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1
+[2024.01.27-16.41.43:066][886]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/c639349d15c17458e851cbdbb9c568d6F85B70EB49B86F4ADB9D54BA8F428B52.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.uasset'
+[2024.01.27-16.41.43:090][886]LogSavePackage: Moving output files for package: /Game/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-16.41.43:090][886]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/c639349d15c17458e851cbdbb9c568d60D459B32470C61B70AC7D49BF5E5F80E.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat.uasset'
+[2024.01.27-16.41.43:113][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 5.61 sec)
+[2024.01.27-16.41.43:116][886]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.27-16.41.43:117][886]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1
+[2024.01.27-16.41.43:118][886]LogContentValidation: Display: Validating /Script/Engine.Material /Game/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat.c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-16.41.46:047][954]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.27-16.41.46:063][954]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.27-16.41.46:083][955]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.27-16.41.49:568][ 41]LogContentBrowser: Attempting asset rename: NewFolder -> Meme
+[2024.01.27-16.41.49:569][ 41]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.27-16.41.55:787][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.41.55:826][175]LogSavePackage: Moving output files for package: /Game/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-16.41.55:827][175]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/c639349d15c17458e851cbdbb9c568d616DEFE2A4A1F9366A5CCC580D3B2BED4.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat.uasset'
+[2024.01.27-16.41.55:833][175]LogSavePackage: Moving output files for package: /Game/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1
+[2024.01.27-16.41.55:834][175]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/c639349d15c17458e851cbdbb9c568d64E00D99941DC0812C5B8C0BFE90F14B8.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.uasset'
+[2024.01.27-16.41.55:846][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 5.66 sec)
+[2024.01.27-16.41.56:082][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.01.27-16.41.56:100][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.01.27-16.41.56:118][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.01.27-16.41.56:136][175]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.27-16.41.56:136][175]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat.c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-16.41.56:137][175]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1.c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1
+[2024.01.27-16.43.57:348][946]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-16.43.57:366][946]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-16.43.57:368][946]LogPlayLevel: [PlayLevel] Compiling Game before play...
+[2024.01.27-16.43.57:412][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.01.27-16.43.57:414][946]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2024.01.27-16.43.57:415][946]PIE: New page: PIE session: Game (Jan 27, 2024, 6:43:57 PM)
+[2024.01.27-16.43.57:415][946]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.43.57:435][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019709s)
+[2024.01.27-16.43.57:435][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.020099s)
+[2024.01.27-16.43.57:454][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.01.27-16.43.57:456][946]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.43.57:456][946]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.43.57:457][946]LogAIModule: Creating AISystem for world Game
+[2024.01.27-16.43.57:457][946]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2024.01.27-16.43.57:458][946]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-16.43.57:458][946]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-16.43.57:458][946]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-16.43.57:459][946]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-16.43.57:459][946]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-16.43.57:459][946]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-16.43.57:462][946]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-16.43.57:503][946]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-16.43.57:504][946]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-16.43.57:504][946]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-16.43.57:504][946]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-16.43.57:506][946]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2024.01.27-16.43.57:507][946]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2024.01.27-16.43.57:508][946]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2024.01.27-16.43.57:508][946]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2024.01.27-16.43.57:508][946]LogInit: FAudioDevice initialized with ID 32.
+[2024.01.27-16.43.57:508][946]LogAudio: Display: Audio Device (ID: 32) registered with world 'Game'.
+[2024.01.27-16.43.57:508][946]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2024.01.27-16.43.57:511][946]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-16.43.57:525][946]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.43.57:526][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-17.43.57
+[2024.01.27-16.43.57:527][946]LogWorld: Bringing up level for play took: 0.015384
+[2024.01.27-16.43.57:530][946]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.01.27-16.43.57:530][946]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.43.57:531][946]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.43.57:531][946]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.43.57:534][946]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-16.43.57:534][946]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-16.43.57:534][946]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.43.57:534][946]PIE: Server logged in
+[2024.01.27-16.43.57:535][946]PIE: Play in editor total start time 0.171 seconds.
+[2024.01.27-16.43.57:588][947]LogViewport: Scene viewport resized to 886x349, mode Windowed.
+[2024.01.27-16.43.59:030][993]LogViewport: Scene viewport resized to 1334x584, mode Windowed.
+[2024.01.27-16.44.01:096][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.44.01:096][ 37]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.44.01:096][ 37]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-16.44.01:097][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.44.01:197][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-16.44.01:203][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.44.01:216][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.44.01:218][ 37]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2024.01.27-16.44.01:218][ 37]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.01.27-16.44.01:220][ 37]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.01.27-16.44.01:246][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.01.27-16.44.01:435][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.01.27-16.47.14:019][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.47.14:148][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WBP_Hud" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset" SILENT=true
+[2024.01.27-16.47.14:171][226]LogSavePackage: Moving output files for package: /Game/Widgets/WBP_Hud
+[2024.01.27-16.47.14:172][226]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/WBP_Hud753E70CB4B1A5229592E58A2DA8DABB2.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset'
+[2024.01.27-16.47.14:183][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 5.83 sec)
+[2024.01.27-16.47.14:186][226]AssetCheck: New page: Asset Save: WBP_Hud
+[2024.01.27-16.47.14:186][226]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-16.47.24:539][338]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.27-16.47.24:550][338]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.27-16.47.24:565][338]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.27-16.47.24:578][338]LogAutomationController: Ignoring very large delta of 7.73 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.27-16.47.24:598][339]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.27-16.47.30:641][525]LogContentBrowser: Attempting asset rename: NewBlueprint -> MemeButton
+[2024.01.27-16.47.30:658][525]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.27-16.47.32:637][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.47.32:687][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.47.32:691][580]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.47.32:691][580]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButtonEBABBAB549DD95106FD1DBA3DEBD1A49.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.47.32:705][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 5.90 sec)
+[2024.01.27-16.47.32:706][580]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.47.32:706][580]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.47.33:731][641]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.47.33:733][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.47.33:733][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.47.33:743][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.47.33:744][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.48.30:476][993]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.48.30:623][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.48.30:626][993]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.48.30:627][993]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton78B8CCB74A3929A2A89AAF9CAC4DBEDD.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.48.30:637][993]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 6.06 sec)
+[2024.01.27-16.48.30:637][993]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.48.30:637][993]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.49.37:052][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.49.37:120][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.49.37:125][302]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.49.37:125][302]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButtonB02C57884D8FE5D7EB456EB36137579E.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.49.37:136][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 6.14 sec)
+[2024.01.27-16.49.37:136][302]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.49.37:137][302]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.49.41:427][557]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-16.49.41:462][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.27-16.49.42:638][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.49.42:763][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.49.42:768][599]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.49.42:768][599]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton88C0924147F9E671EBF4D888DA7688B0.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.49.42:780][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 6.28 sec)
+[2024.01.27-16.49.42:781][599]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.49.42:781][599]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.50.27:401][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.50.27:543][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WBP_Hud" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset" SILENT=true
+[2024.01.27-16.50.27:570][807]LogSavePackage: Moving output files for package: /Game/Widgets/WBP_Hud
+[2024.01.27-16.50.27:570][807]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/WBP_Hud7EF218264C4A15B98DA527AD819DB2CD.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset'
+[2024.01.27-16.50.27:580][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 6.46 sec)
+[2024.01.27-16.50.27:581][807]AssetCheck: New page: Asset Save: WBP_Hud
+[2024.01.27-16.50.27:581][807]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-16.50.29:135][844]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-16.50.29:151][844]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-16.50.29:175][844]LogPlayLevel: [PlayLevel] Compiling WBP_Hud before play...
+[2024.01.27-16.50.29:356][844]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2024.01.27-16.50.29:356][844]LogOutputDevice: Error: Ensure condition failed: GExitPurge || !IsGarbageCollecting() [File:D:\build\++UE5\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 43] 
+SObjectWidget for 'MemeButton_C /Engine/Transient.World_1:WBP_Hud_C_102.WidgetTree_0.MemeButton' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+1) ReleaseSlateResources not being implemented for the owner of this pointer.
+2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+
+[2024.01.27-16.50.29:356][844]LogStats:             FDebug::EnsureFailed -  0.001 s
+[2024.01.27-16.50.34:842][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.01.27-16.50.34:844][844]LogPlayLevel: PlayLevel: Blueprint regeneration took 5692 ms (1 blueprints)
+[2024.01.27-16.50.34:844][844]PIE: New page: PIE session: Game (Jan 27, 2024, 6:50:34 PM)
+[2024.01.27-16.50.34:845][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.50.34:862][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016842s)
+[2024.01.27-16.50.34:862][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.017238s)
+[2024.01.27-16.50.34:880][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.01.27-16.50.34:881][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.50.34:881][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.50.34:882][844]LogAIModule: Creating AISystem for world Game
+[2024.01.27-16.50.34:883][844]LogPlayLevel: PIE: World Init took: (0.001780s)
+[2024.01.27-16.50.34:883][844]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.01.27-16.50.34:883][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-16.50.34:883][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-16.50.34:884][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-16.50.34:884][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-16.50.34:884][844]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-16.50.34:884][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-16.50.34:884][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-16.50.34:884][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-16.50.34:885][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-16.50.34:885][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-16.50.34:885][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-16.50.34:887][844]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-16.50.34:922][844]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-16.50.34:923][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-16.50.34:923][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-16.50.34:923][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-16.50.34:924][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.01.27-16.50.34:924][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.01.27-16.50.34:927][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.01.27-16.50.34:927][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.01.27-16.50.34:927][844]LogInit: FAudioDevice initialized with ID 33.
+[2024.01.27-16.50.34:927][844]LogAudio: Display: Audio Device (ID: 33) registered with world 'Game'.
+[2024.01.27-16.50.34:927][844]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.27-16.50.34:934][844]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-16.50.34:952][844]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.50.34:952][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 3) at 2024.01.27-17.50.34
+[2024.01.27-16.50.34:953][844]LogWorld: Bringing up level for play took: 0.018452
+[2024.01.27-16.50.34:956][844]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.01.27-16.50.34:957][844]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.50.34:957][844]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.50.34:957][844]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.50.34:960][844]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-16.50.34:960][844]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-16.50.34:960][844]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.50.34:960][844]PIE: Server logged in
+[2024.01.27-16.50.34:962][844]PIE: Play in editor total start time 5.813 seconds.
+[2024.01.27-16.50.35:089][844]LogAutomationController: Ignoring very large delta of 5.99 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.27-16.50.37:784][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.50.37:784][853]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.50.37:785][853]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-16.50.37:786][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.50.37:791][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-16.50.37:797][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.50.37:811][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.50.37:812][853]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.27-16.50.37:812][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.27-16.50.37:816][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.27-16.50.37:855][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2024.01.27-16.50.37:980][854]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.01.27-16.50.51:504][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.50.51:643][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.50.51:648][192]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.50.51:649][192]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButtonBB723688408D8579660D3A93D2DF3D9D.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.50.51:658][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 6.62 sec)
+[2024.01.27-16.50.51:660][192]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.50.51:660][192]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.50.52:652][218]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-16.50.52:735][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.01.27-16.52.09:319][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.52.09:476][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WBP_Hud" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset" SILENT=true
+[2024.01.27-16.52.09:501][834]LogSavePackage: Moving output files for package: /Game/Widgets/WBP_Hud
+[2024.01.27-16.52.09:502][834]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/WBP_HudF6A9A41B4B9E132BF081F5BBC20DFEB3.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset'
+[2024.01.27-16.52.09:516][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 6.82 sec)
+[2024.01.27-16.52.09:518][834]AssetCheck: New page: Asset Save: WBP_Hud
+[2024.01.27-16.52.09:518][834]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-16.52.13:350][915]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-16.52.13:365][915]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-16.52.13:368][915]LogPlayLevel: [PlayLevel] Compiling WBP_Hud before play...
+[2024.01.27-16.52.13:457][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.01.27-16.52.13:460][915]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2024.01.27-16.52.13:460][915]PIE: New page: PIE session: Game (Jan 27, 2024, 6:52:13 PM)
+[2024.01.27-16.52.13:461][915]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.52.13:477][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016092s)
+[2024.01.27-16.52.13:477][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.016462s)
+[2024.01.27-16.52.13:493][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.27-16.52.13:494][915]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.52.13:495][915]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.52.13:495][915]LogAIModule: Creating AISystem for world Game
+[2024.01.27-16.52.13:496][915]LogPlayLevel: PIE: World Init took: (0.001550s)
+[2024.01.27-16.52.13:496][915]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.01.27-16.52.13:496][915]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-16.52.13:496][915]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-16.52.13:496][915]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-16.52.13:497][915]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-16.52.13:497][915]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-16.52.13:497][915]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-16.52.13:497][915]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-16.52.13:497][915]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-16.52.13:498][915]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-16.52.13:498][915]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-16.52.13:498][915]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-16.52.13:501][915]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-16.52.13:537][915]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-16.52.13:537][915]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-16.52.13:537][915]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-16.52.13:537][915]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-16.52.13:538][915]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.01.27-16.52.13:538][915]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.01.27-16.52.13:541][915]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.01.27-16.52.13:541][915]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.01.27-16.52.13:541][915]LogInit: FAudioDevice initialized with ID 34.
+[2024.01.27-16.52.13:541][915]LogAudio: Display: Audio Device (ID: 34) registered with world 'Game'.
+[2024.01.27-16.52.13:541][915]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.01.27-16.52.13:544][915]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-16.52.13:555][915]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-16.52.13:555][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-17.52.13
+[2024.01.27-16.52.13:556][915]LogWorld: Bringing up level for play took: 0.011592
+[2024.01.27-16.52.13:559][915]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.01.27-16.52.13:560][915]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.52.13:560][915]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-16.52.13:560][915]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.52.13:563][915]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-16.52.13:563][915]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-16.52.13:563][915]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-16.52.13:563][915]PIE: Server logged in
+[2024.01.27-16.52.13:564][915]PIE: Play in editor total start time 0.2 seconds.
+[2024.01.27-16.52.18:515][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.52.18:515][ 15]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-16.52.18:515][ 15]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-16.52.18:517][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.52.18:522][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-16.52.18:527][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-16.52.18:542][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-16.52.18:544][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.01.27-16.52.18:544][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.01.27-16.52.18:546][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.01.27-16.52.18:561][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.27-16.52.18:651][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.01.27-16.52.50:413][911]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-16.52.50:487][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.01.27-16.53.00:725][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.53.00:876][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.53.00:881][155]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.53.00:882][155]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton297FD69D42A9CD091F714CA3DB34A37F.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.53.00:892][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 6.98 sec)
+[2024.01.27-16.53.00:894][155]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.53.00:895][155]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.53.01:840][177]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-16.53.01:874][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.01.27-16.53.19:451][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.53.19:584][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WBP_Hud" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset" SILENT=true
+[2024.01.27-16.53.19:607][550]LogSavePackage: Moving output files for package: /Game/Widgets/WBP_Hud
+[2024.01.27-16.53.19:608][550]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/WBP_Hud7243099E438829207F537DB665A383DA.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset'
+[2024.01.27-16.53.19:618][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 7.15 sec)
+[2024.01.27-16.53.19:620][550]AssetCheck: New page: Asset Save: WBP_Hud
+[2024.01.27-16.53.19:620][550]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-16.53.41:563][208]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.53.41:682][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.53.41:707][208]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.53.41:708][208]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUp72A7150A4EB74AE0D4F74A816F6DF769.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.53.41:717][208]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 7.30 sec)
+[2024.01.27-16.53.41:721][208]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.53.41:721][208]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-16.54.02:030][672]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.54.02:038][672]LogActor: Warning: BP_NPCCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_NPCCharacter_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.01.27-16.54.02:173][674]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.54.02:183][674]LogActor: Warning: BP_Standupper_C /Engine/Transient.World_29:PersistentLevel.BP_Standupper_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.01.27-16.54.02:664][699]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Game.Game:PersistentLevel.Game
+[2024.01.27-16.54.02:667][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-16.54.02:668][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-16.54.23:262][456]LogSlate: Window 'Delete Variable' being destroyed
+[2024.01.27-16.54.28:482][643]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UGameplayStatics::GetPlayerController' [The specified module could not be found.]
+[2024.01.27-16.54.37:703][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.54.37:876][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.54.37:901][129]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.54.37:901][129]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUp5180E90F4F78A53FCD6BDEA04F0B8FF8.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.54.37:915][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 7.52 sec)
+[2024.01.27-16.54.37:917][129]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.54.37:918][129]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-16.54.56:758][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.54.56:818][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.54.56:842][  4]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.54.56:843][  4]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUpFA25E76D4BFDB448AAC92B8D2860913E.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.54.56:854][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 7.61 sec)
+[2024.01.27-16.54.56:856][  4]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.54.56:856][  4]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-16.54.58:538][ 58]BlueprintLog: New page: Compile PC_StandUp
+[2024.01.27-16.54.58:586][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.27-16.55.11:858][582]BlueprintLog: New page: Compile PC_StandUp
+[2024.01.27-16.55.11:899][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.01.27-16.55.13:563][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.55.13:627][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.55.13:651][628]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.55.13:652][628]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUpD68010EF4F79D3F3E376DF94312C9D5B.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.55.13:664][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 7.71 sec)
+[2024.01.27-16.55.13:666][628]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.55.13:666][628]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-16.55.44:003][ 41]BlueprintLog: New page: Compile PC_StandUp
+[2024.01.27-16.55.44:046][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.27-16.55.44:900][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.55.44:965][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.55.44:988][ 65]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.55.44:989][ 65]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUp3BAE491143D072124FAB5F82CAD08C5C.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.55.45:000][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 7.81 sec)
+[2024.01.27-16.55.45:002][ 65]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.55.45:002][ 65]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-16.56.41:049][434]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.56.41:112][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.56.41:137][434]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.56.41:138][434]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUp10E4D6F54AA044B963D448B4FBB75738.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.56.41:149][434]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 7.91 sec)
+[2024.01.27-16.56.41:151][434]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.56.41:151][434]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-16.56.45:701][617]BlueprintLog: New page: Compile Game
+[2024.01.27-16.56.45:735][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.27-16.56.50:018][757]BlueprintLog: New page: Compile PC_StandUp
+[2024.01.27-16.56.50:063][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.27-16.56.55:138][929]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.56.55:204][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-16.56.55:256][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.01.27-16.56.55:317][929]LogSavePackage: Moving output files for package: /Game/Maps/Game
+[2024.01.27-16.56.55:318][929]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/Game4585963F46972AD19482F48D7B4A415F.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Maps/Game.umap'
+[2024.01.27-16.56.55:327][929]LogFileHelpers: Saving map 'Game' took 0.123
+[2024.01.27-16.56.55:339][929]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 8.12 sec)
+[2024.01.27-16.56.55:342][929]AssetCheck: New page: Asset Save: Game
+[2024.01.27-16.56.55:342][929]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Game.Game
+[2024.01.27-16.58.18:662][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.58.18:730][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.58.18:737][318]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.58.18:737][318]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButtonE5788861452F5F8625B33EA9B60A88B0.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.58.18:749][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 8.20 sec)
+[2024.01.27-16.58.18:750][318]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.58.18:750][318]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.58.20:244][408]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-16.58.20:283][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.01.27-16.58.46:409][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.58.46:475][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.58.46:481][239]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.58.46:482][239]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton181BB130437127C0B4165ABE9779BFB8.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.58.46:494][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 8.29 sec)
+[2024.01.27-16.58.46:496][239]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.58.46:497][239]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.59.09:951][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.59.10:063][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-16.59.10:070][247]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-16.59.10:071][247]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton661C91714B0300CF5ED64FAC78D8957B.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-16.59.10:084][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 8.42 sec)
+[2024.01.27-16.59.10:086][247]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-16.59.10:086][247]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-16.59.36:540][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.59.36:765][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-16.59.36:790][103]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-16.59.36:790][103]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUpC9D8A2024A3F3ED9F0C33BA230CB1505.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-16.59.36:801][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 260 ms (total: 8.68 sec)
+[2024.01.27-16.59.36:803][103]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-16.59.36:803][103]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-17.00.10:700][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.00.10:760][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-17.00.10:785][515]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-17.00.10:786][515]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUp93C534BC4968AC1C72E870B72CD9A46B.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-17.00.10:797][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 8.78 sec)
+[2024.01.27-17.00.10:799][515]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-17.00.10:799][515]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-17.00.12:071][590]BlueprintLog: New page: Compile PC_StandUp
+[2024.01.27-17.00.12:138][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.01.27-17.00.12:728][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.00.12:840][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PC_StandUp" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset" SILENT=true
+[2024.01.27-17.00.12:866][603]LogSavePackage: Moving output files for package: /Game/PC_StandUp
+[2024.01.27-17.00.12:866][603]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/PC_StandUp5CFDFEA742556C2BFA6ABB8603951E19.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/PC_StandUp.uasset'
+[2024.01.27-17.00.12:878][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 8.93 sec)
+[2024.01.27-17.00.12:881][603]AssetCheck: New page: Asset Save: PC_StandUp
+[2024.01.27-17.00.12:881][603]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PC_StandUp.PC_StandUp
+[2024.01.27-17.00.21:070][806]LogPhysics: Warning: Scale for /Game/Maps/Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-17.00.39:588][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.00.39:730][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-17.00.39:780][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.27-17.00.39:837][219]LogSavePackage: Moving output files for package: /Game/Maps/Game
+[2024.01.27-17.00.39:838][219]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/GameD49D3D5446F78C72C5BEBE8FCBE168C8.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Maps/Game.umap'
+[2024.01.27-17.00.39:847][219]LogFileHelpers: Saving map 'Game' took 0.119
+[2024.01.27-17.00.39:857][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 269 ms (total: 9.20 sec)
+[2024.01.27-17.00.39:858][219]AssetCheck: New page: Asset Save: Game
+[2024.01.27-17.00.39:858][219]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Game.Game
+[2024.01.27-17.00.41:124][257]BlueprintLog: New page: Compile Game
+[2024.01.27-17.00.41:158][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.01.27-17.01.03:497][756]LogEditorTransaction: Undo Move Widget
+[2024.01.27-17.01.08:406][924]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.01.08:535][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WBP_Hud" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset" SILENT=true
+[2024.01.27-17.01.08:563][924]LogSavePackage: Moving output files for package: /Game/Widgets/WBP_Hud
+[2024.01.27-17.01.08:563][924]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/WBP_Hud200477244C4E906330EFF29742EA1E22.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset'
+[2024.01.27-17.01.08:577][924]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 9.37 sec)
+[2024.01.27-17.01.08:580][924]AssetCheck: New page: Asset Save: WBP_Hud
+[2024.01.27-17.01.08:580][924]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-17.01.09:335][948]BlueprintLog: New page: Compile WBP_Hud
+[2024.01.27-17.01.09:409][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.27-17.01.12:646][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.01.12:659][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-17.01.12:659][ 14]PIE: New page: PIE session: Game (Jan 27, 2024, 7:01:12 PM)
+[2024.01.27-17.01.12:659][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-17.01.12:679][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019960s)
+[2024.01.27-17.01.12:680][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.020315s)
+[2024.01.27-17.01.12:706][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.01.27-17.01.12:709][ 14]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.01.12:710][ 14]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.01.12:710][ 14]LogAIModule: Creating AISystem for world Game
+[2024.01.27-17.01.12:711][ 14]LogPlayLevel: PIE: World Init took: (0.001805s)
+[2024.01.27-17.01.12:711][ 14]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.01.27-17.01.12:711][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.01.12:711][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.01.12:711][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.01.12:712][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.01.12:712][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.01.12:712][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.01.12:712][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.01.12:712][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.01.12:713][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.01.12:713][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.01.12:713][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.01.12:715][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.01.12:757][ 14]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-17.01.12:758][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.01.12:758][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.01.12:758][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.01.12:759][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.01.27-17.01.12:759][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.01.27-17.01.12:762][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.01.27-17.01.12:762][ 14]LogInit: FAudioDevice initialized with ID 35.
+[2024.01.27-17.01.12:762][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.01.27-17.01.12:762][ 14]LogAudio: Display: Audio Device (ID: 35) registered with world 'Game'.
+[2024.01.27-17.01.12:762][ 14]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.01.27-17.01.12:765][ 14]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-17.01.12:779][ 14]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-17.01.12:779][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-18.01.12
+[2024.01.27-17.01.12:780][ 14]LogWorld: Bringing up level for play took: 0.014977
+[2024.01.27-17.01.12:783][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.01.27-17.01.12:784][ 14]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-17.01.12:784][ 14]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-17.01.12:784][ 14]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-17.01.12:788][ 14]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-17.01.12:788][ 14]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-17.01.12:789][ 14]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-17.01.12:789][ 14]PIE: Server logged in
+[2024.01.27-17.01.12:789][ 14]PIE: Play in editor total start time 0.131 seconds.
+[2024.01.27-17.01.20:564][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.01.20:564][166]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-17.01.20:564][166]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.01.20:567][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.01.20:593][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.01.20:598][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.01.20:618][166]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-17.01.20:619][166]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.01.27-17.01.20:619][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.01.27-17.01.20:621][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.01.27-17.01.20:636][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.01.20:641][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.01.27-17.01.20:735][167]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.01.27-17.01.32:649][402]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-17.01.32:738][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.01.27-17.01.34:953][443]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.01.35:120][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-17.01.35:127][443]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-17.01.35:128][443]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton28A9BA5E4B05E1502F5B81BDBC89B308.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-17.01.35:141][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 9.56 sec)
+[2024.01.27-17.01.35:143][443]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-17.01.35:143][443]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-17.01.37:380][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.01.37:513][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-17.01.37:520][489]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-17.01.37:521][489]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton51CAC36A4A62E3B909D7FAB3F04BCA13.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-17.01.37:537][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 9.71 sec)
+[2024.01.27-17.01.37:539][489]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-17.01.37:539][489]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-17.01.38:093][504]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-17.01.38:135][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.27-17.01.58:300][945]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.01.27-17.02.09:289][259]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.02.09:390][259]LogSavePackage: Moving output files for package: /Game/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-17.02.09:391][259]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/c639349d15c17458e851cbdbb9c568d6376B5879494E2DD49D17E1B75AF85286.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat.uasset'
+[2024.01.27-17.02.09:403][259]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 9.83 sec)
+[2024.01.27-17.02.09:405][259]AssetCheck: New page: Asset Save: c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-17.02.09:406][259]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Meme/c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat.c639349d15c17458e851cbdbb9c568d6884fa150679b1412cf478db877c94804_1_Mat
+[2024.01.27-17.02.17:687][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.02.17:761][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-17.02.17:768][449]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-17.02.17:769][449]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButtonB05751434F2C936C8FB43DA8EE4D1A0F.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-17.02.17:781][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 9.92 sec)
+[2024.01.27-17.02.17:784][449]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-17.02.17:784][449]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
+[2024.01.27-17.02.19:049][523]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-17.02.19:136][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.01.27-17.02.21:176][579]BlueprintLog: New page: Compile WBP_Hud
+[2024.01.27-17.02.21:206][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.01.27-17.02.22:183][601]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.02.22:336][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WBP_Hud" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset" SILENT=true
+[2024.01.27-17.02.22:359][601]LogSavePackage: Moving output files for package: /Game/Widgets/WBP_Hud
+[2024.01.27-17.02.22:360][601]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/WBP_HudDADDCE4B4F6B67C4798A4C901D67983E.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/WBP_Hud.uasset'
+[2024.01.27-17.02.22:373][601]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 10.1 sec)
+[2024.01.27-17.02.22:376][601]AssetCheck: New page: Asset Save: WBP_Hud
+[2024.01.27-17.02.22:376][601]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WBP_Hud.WBP_Hud
+[2024.01.27-17.02.23:948][639]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.02.23:961][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-17.02.23:961][639]PIE: New page: PIE session: Game (Jan 27, 2024, 7:02:23 PM)
+[2024.01.27-17.02.23:961][639]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-17.02.23:977][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015166s)
+[2024.01.27-17.02.23:977][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.015564s)
+[2024.01.27-17.02.23:996][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.27-17.02.23:998][639]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.02.23:998][639]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.02.23:999][639]LogAIModule: Creating AISystem for world Game
+[2024.01.27-17.02.24:000][639]LogPlayLevel: PIE: World Init took: (0.001633s)
+[2024.01.27-17.02.24:000][639]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.02.24:000][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.02.24:000][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.02.24:001][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.02.24:001][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.02.24:001][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.02.24:003][639]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.02.24:038][639]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-17.02.24:039][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.02.24:039][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.02.24:039][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.02.24:040][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.01.27-17.02.24:040][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.01.27-17.02.24:042][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.01.27-17.02.24:042][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.01.27-17.02.24:042][639]LogInit: FAudioDevice initialized with ID 36.
+[2024.01.27-17.02.24:043][639]LogAudio: Display: Audio Device (ID: 36) registered with world 'Game'.
+[2024.01.27-17.02.24:043][639]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.01.27-17.02.24:046][639]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-17.02.24:055][639]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-17.02.24:056][639]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-18.02.24
+[2024.01.27-17.02.24:057][639]LogWorld: Bringing up level for play took: 0.010777
+[2024.01.27-17.02.24:059][639]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.01.27-17.02.24:060][639]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-17.02.24:060][639]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-17.02.24:060][639]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-17.02.24:063][639]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-17.02.24:064][639]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-17.02.24:064][639]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-17.02.24:064][639]PIE: Server logged in
+[2024.01.27-17.02.24:065][639]PIE: Play in editor total start time 0.104 seconds.
+[2024.01.27-17.02.42:254][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.02.42:254][ 19]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-17.02.42:255][ 19]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.02.42:256][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.02.42:294][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.02.42:300][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.02.42:316][ 19]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-17.02.42:316][ 19]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.01.27-17.02.42:317][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.01.27-17.02.42:319][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.01.27-17.02.42:340][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.02.42:344][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-17.02.42:459][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.01.27-17.02.46:158][115]BlueprintLog: New page: Compile MemeButton
+[2024.01.27-17.02.46:198][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-17.02.48:368][159]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.02.48:381][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-17.02.48:381][159]PIE: New page: PIE session: Game (Jan 27, 2024, 7:02:48 PM)
+[2024.01.27-17.02.48:382][159]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Game
+[2024.01.27-17.02.48:398][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015826s)
+[2024.01.27-17.02.48:398][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.016335s)
+[2024.01.27-17.02.48:416][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.01.27-17.02.48:419][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.02.48:419][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.02.48:420][159]LogAIModule: Creating AISystem for world Game
+[2024.01.27-17.02.48:420][159]LogPlayLevel: PIE: World Init took: (0.001433s)
+[2024.01.27-17.02.48:420][159]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.02.48:421][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.02.48:421][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.02.48:422][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.02.48:422][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.02.48:422][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.02.48:424][159]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.02.48:455][159]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.27-17.02.48:455][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.02.48:456][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.02.48:456][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.02.48:457][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.01.27-17.02.48:457][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.01.27-17.02.48:460][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.01.27-17.02.48:460][159]LogInit: FAudioDevice initialized with ID 37.
+[2024.01.27-17.02.48:460][159]LogAudio: Display: Audio Device (ID: 37) registered with world 'Game'.
+[2024.01.27-17.02.48:460][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.01.27-17.02.48:460][159]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.01.27-17.02.48:463][159]LogLoad: Game class is 'GM_StandUp_C'
+[2024.01.27-17.02.48:473][159]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_Game.Game:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=3.000 Z=3.000
+[2024.01.27-17.02.48:474][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2024.01.27-18.02.48
+[2024.01.27-17.02.48:475][159]LogWorld: Bringing up level for play took: 0.011348
+[2024.01.27-17.02.48:478][159]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.01.27-17.02.48:479][159]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-17.02.48:479][159]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.01.27-17.02.48:479][159]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-17.02.48:482][159]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.27-17.02.48:482][159]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.01.27-17.02.48:482][159]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.01.27-17.02.48:483][159]PIE: Server logged in
+[2024.01.27-17.02.48:484][159]PIE: Play in editor total start time 0.103 seconds.
+[2024.01.27-17.02.57:274][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.02.57:274][318]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Game
+[2024.01.27-17.02.57:275][318]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.02.57:276][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.02.57:282][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.02.57:287][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.02.57:304][318]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-17.02.57:304][318]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.01.27-17.02.57:304][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.01.27-17.02.57:306][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.01.27-17.02.57:321][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.02.57:326][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.01.27-17.02.57:404][319]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.01.27-17.02.58:639][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.02.58:775][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MemeButton" FILE="../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset" SILENT=true
+[2024.01.27-17.02.58:782][356]LogSavePackage: Moving output files for package: /Game/Widgets/MemeButton
+[2024.01.27-17.02.58:783][356]LogSavePackage: Moving '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Saved/MemeButton3D929B03491DC4D043BC4B96118B0881.tmp' to '../../../../../../Users/goggi/Documents/Unreal Projects/GameJamProject/Content/Widgets/MemeButton.uasset'
+[2024.01.27-17.02.58:795][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 10.2 sec)
+[2024.01.27-17.02.58:797][356]AssetCheck: New page: Asset Save: MemeButton
+[2024.01.27-17.02.58:797][356]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/MemeButton.MemeButton
